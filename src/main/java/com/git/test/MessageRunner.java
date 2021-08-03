@@ -8,7 +8,8 @@ public class MessageRunner implements CommandLineRunner {
 
 	public void run(String... args) throws Exception {
 		System.out.println("GIT Application");
-		System.out.println("Modifivation done");
+		int a= 10;
+		System.out.println("Modifivation done :: "+a);
 	}
 
 }
